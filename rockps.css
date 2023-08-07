@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+h1 {
+    font-family: Changa One;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
+
+#content {
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+#leftside {
+    background-color: #ececec;
+    font-family: Changa One;
+    letter-spacing: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#bottom {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+#h2one, #h2two {
+    padding-bottom: 150px;
+}
+
+#middle, #rightside {
+font-family: Changa One;
+letter-spacing: 2px;
+}
+
+#middle {
+    background-color: rgb(255, 233, 162);
+    height: 538px;
+}
+
+#rightside {
+    background-color: rgb(255, 171, 60);
+    height: 538px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#buttonOne {
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Changa One;
+    font-size: large;
+    background-color: orange;
+    letter-spacing: 2px;
+}
+
+#buttonOne:hover {
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Changa One;
+    font-size: large;
+    background-color: rgb(168, 18, 18);
+    letter-spacing: 2px;
+    color: white;
+}
